@@ -1,0 +1,62 @@
+/* 레이아웃 : 전체영역 */
+#wrap { }
+#header {background:rgba(0,0,0,0.6); position: absolute; left:0; top:0; width:100%}
+#banner { }
+#banner img {width:100%;}
+#content { }
+#content > div {padding: 100px 0}
+#footer { }
+
+/* content layout */
+#cont-product {
+  background:
+  url(../img/food2.png) no-repeat 400px -70px,
+  url(../img/food1.png) no-repeat -200px 0,
+  url(../img/food3.png) no-repeat 1000px  100px;
+  background-color: #EBEBEC;
+}
+#cont-news {
+  background:
+  url(../img/news1.png) no-repeat 950px 80px,
+  url(../img/news2.png) no-repeat 1300px 150px
+}
+#cont-story {background:#555 }
+#content h2 {font-size: 40px; text-align: center; text-transform: uppercase; font-weight: bold;}
+#content .desc {font-size:18px; color: #767676;text-align: center; margin-top :24px;margin-bottom: 80px;}
+
+/* container : 가운데영역 */
+.container{width: 1176px; margin: 0 auto; /*background:rgba(0,0,0,0.4)*/}
+
+/* header-wrap  */
+.header-wrap { }
+.header-wrap .header-top {text-align:center; border-bottom:1px solid rgba(255,255,255,0.3)}
+.header-wrap .header-top h1 {padding: 30px 0 25px 0;}
+.header-wrap .header-nav { }
+.header-wrap .header-nav ul {overflow:hidden}
+.header-wrap .header-nav li {float:left; width:16.6666%}
+.header-wrap .header-nav li a {color:white;font-size:17px;
+  padding:10px;display:block;text-align: center;}
+
+/* cont-product */
+.product {text-align: center;}
+.product ul {overflow: hidden; width:950px; margin: 0 auto;}
+.product li { float: left;  margin-bottom: 10px; margin-right: 10px}
+.product li a {width:230px; height: 230px; background: white; display: block;}
+.product li img {padding-top: 25px; padding-bottom: 15px;}
+.product li span {font-size: 18px; color:black; display: block}
+.product .last {margin-right:0;}
+/* cont-news */
+.news {overflow: hidden;}
+.news-left {float:left; width: 877px;}
+.news-left .new-left-top {overflow: hidden;width:100%; margin-bottom:10px;}
+.news-left .new-left-top .new-video {position:relative;float: left;width:580px;height: 336px; border: 1px solid #e0e0e0;}
+.news-left .new-left-top .new-video .play {position:absolute; top:50%; left:50%; margin-left: -30px; margin-top: -30px;}
+.news-left .new-left-top .new-recruit {float:right;width: 284px;height: 336px;border: 1px solid #e0e0e0;}
+.news-left .new-left-bom {overflow: hidden; width:100%;}
+.news-left .new-left-bom .new-custom {float: left; width:284px; height: 168px; margin-right: 10px;border: 1px solid #e0e0e0;}
+.news-left .new-left-bom .new-factory {float: left; width:284px; height: 168px;border: 1px solid #e0e0e0;}
+.news-left .new-left-bom .new-franchise {float: right; width:284px; height: 168px;border: 1px solid #e0e0e0;
+background-color:#1977be;}
+.news-right {float:right; width: 290px; height: 521px; background-color: #ebebec; opacity: 0.9}
+
+/* cont-story */
